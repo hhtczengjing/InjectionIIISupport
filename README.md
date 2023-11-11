@@ -17,7 +17,7 @@ InjectionIIISupport is available through [CocoaPods](https://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'InjectionIIISupport'
+pod 'InjectionIIISupport', :git => 'https://github.com/hhtczengjing/InjectionIIISupport.git', :configuration => ['Debug']
 ```
 
 ## Author

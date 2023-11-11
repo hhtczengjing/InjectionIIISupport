@@ -1,0 +1,23 @@
+PODS:
+  - InjectionIIISupport (0.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - InjectionIIISupport (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  InjectionIIISupport:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InjectionIIISupport: 9960d1aa7c05a6f9ac2da98aaee78b18d4a81241
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: d55509140fffafbe88f2dd831500fe556e61547c
+
+COCOAPODS: 1.11.3

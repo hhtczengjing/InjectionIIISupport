@@ -22,7 +22,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E9D885A12C2DC2ED4D96CCE3 /* Pods_InjectionIIISupport_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0F78C2DA25CE63DC2D0514 /* Pods_InjectionIIISupport_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,7 @@
 /* Begin PBXFileReference section */
 		0A0F78C2DA25CE63DC2D0514 /* Pods_InjectionIIISupport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InjectionIIISupport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		521802A5F6A3A5806BE0725A /* Pods-InjectionIIISupport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjectionIIISupport_Example.release.xcconfig"; path = "Target Support Files/Pods-InjectionIIISupport_Example/Pods-InjectionIIISupport_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5F1D43AA6AFC269D5AFA97BE /* InjectionIIISupport.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = InjectionIIISupport.podspec; path = ../InjectionIIISupport.podspec; sourceTree = "<group>"; };
+		5F1D43AA6AFC269D5AFA97BE /* InjectionIIISupport.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InjectionIIISupport.podspec; path = ../InjectionIIISupport.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* InjectionIIISupport_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InjectionIIISupport_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +58,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6D172AC743B69FC649DD6262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D172AC743B69FC649DD6262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78F421F524D091EE6A8E125A /* Pods-InjectionIIISupport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjectionIIISupport_Tests.release.xcconfig"; path = "Target Support Files/Pods-InjectionIIISupport_Tests/Pods-InjectionIIISupport_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8260BF5F9451B1B82833C35F /* Pods_InjectionIIISupport_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InjectionIIISupport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F45C5A1AFBBB509600388DF /* Pods-InjectionIIISupport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjectionIIISupport_Tests.debug.xcconfig"; path = "Target Support Files/Pods-InjectionIIISupport_Tests/Pods-InjectionIIISupport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B208FD4CD5E5406201DD3A38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B208FD4CD5E5406201DD3A38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F4C5304DD36B38DAEBEE0DE2 /* Pods-InjectionIIISupport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjectionIIISupport_Example.debug.xcconfig"; path = "Target Support Files/Pods-InjectionIIISupport_Example/Pods-InjectionIIISupport_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,7 +132,6 @@
 			children = (
 				6003F59C195388D20070C39A /* DZAppDelegate.h */,
 				6003F59D195388D20070C39A /* DZAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DZViewController.h */,
 				6003F5A6195388D20070C39A /* DZViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -193,7 +190,6 @@
 				9F45C5A1AFBBB509600388DF /* Pods-InjectionIIISupport_Tests.debug.xcconfig */,
 				78F421F524D091EE6A8E125A /* Pods-InjectionIIISupport_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +274,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -347,10 +343,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-InjectionIIISupport_Example/Pods-InjectionIIISupport_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/InjectionIIISupport/InjectionIIISupport.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InjectionIIISupport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -497,6 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InjectionIIISupport/InjectionIIISupport-Prefix.pch";
 				INFOPLIST_FILE = "InjectionIIISupport/InjectionIIISupport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +512,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InjectionIIISupport/InjectionIIISupport-Prefix.pch";
 				INFOPLIST_FILE = "InjectionIIISupport/InjectionIIISupport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
